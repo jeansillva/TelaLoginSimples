@@ -53,11 +53,25 @@ legend{
     font-size: 1.2em;
 }
 
-.btn{
-    width: fit-content; /*Ocupa somente a largura utilizada pelo conteúdo*/
+/* .btn{
+    width: fit-content; Ocupa somente a largura utilizada pelo conteúdo
     margin-left: auto;
+    background-color: rgb(43,43,128);
+    color: white;
+    cursor: pointer;
+}  */
+
+.actions{
+    display: flex;
+    gap: 1em;
+}
+
+.btn2{
     background-color: rgb(43,43,128);
     color: white;
     cursor: pointer;
 }
 
+.btn--apagar{
+    background-color: rgb(128,43,56);
+}
